@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Groid"
         tools:targetApi="31">
         <activity
+            android:name=".activity.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
