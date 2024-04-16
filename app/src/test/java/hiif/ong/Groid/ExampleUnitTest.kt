@@ -1,4 +1,4 @@
-package cc.hiifong.groid
+package hiif.ong.Groid
 
 import org.junit.Test
 
