@@ -1,6 +1,7 @@
-package hiif.ong.Groid
+package best.pkg.groid
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -10,7 +11,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import hiif.ong.Groid.ui.theme.GroidTheme
+import best.pkg.groid.ui.theme.GroidTheme
+
+const val TAG = "MainActivity"
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,6 +29,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+        Log.d(TAG, "called onCreate function")
     }
 }
 

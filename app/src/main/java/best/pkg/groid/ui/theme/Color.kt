@@ -1,4 +1,4 @@
-package hiif.ong.Groid.ui.theme
+package best.pkg.groid.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

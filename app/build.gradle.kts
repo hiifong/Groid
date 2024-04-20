@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "hiif.ong.Groid"
+    namespace = "best.pkg.groid"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "hiif.ong.Groid"
+        applicationId = "best.pkg.groid"
         minSdk = 27
         targetSdk = 34
         versionCode = 1

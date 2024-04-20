@@ -1,4 +1,4 @@
-package hiif.ong.Groid.ui.theme
+package best.pkg.groid.ui.theme
 
 import android.app.Activity
 import android.os.Build
