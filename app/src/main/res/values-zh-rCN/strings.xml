@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Groid</string>
+
+    <string name="username">用户名</string>
+    <string name="email">邮箱</string>
+    <string name="password">密码</string>
+    <string name="verification_code">验证码</string>
+</resources>

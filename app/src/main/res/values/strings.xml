@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Groid</string>
+    <string name="app_name" translatable="false">Groid</string>
+
+    <string name="username">username</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="verification_code">Verification code</string>
 </resources>
