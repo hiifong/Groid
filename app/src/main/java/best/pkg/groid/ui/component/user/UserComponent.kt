@@ -1,0 +1,9 @@
+package best.pkg.groid.ui.component.user
+
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+
+@Composable
+fun UserInfoCard(modifier: Modifier) {
+
+}
