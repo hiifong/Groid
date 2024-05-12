@@ -4,5 +4,7 @@
     <string name="username">username</string>
     <string name="email">email</string>
     <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
     <string name="verification_code">Verification code</string>
 </resources>
