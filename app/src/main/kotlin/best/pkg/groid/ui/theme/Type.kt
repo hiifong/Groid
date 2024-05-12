@@ -2,9 +2,30 @@ package best.pkg.groid.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import best.pkg.groid.R
+
+val smileySansFamily = FontFamily(
+    Font(R.font.smiley_sans, FontWeight.Light),
+    Font(R.font.smiley_sans, FontWeight.SemiBold),
+    Font(R.font.smiley_sans, FontWeight.Bold)
+)
+
+val h1 = TextStyle(
+    fontSize = 18.sp,
+    fontFamily = smileySansFamily,
+    fontWeight = FontWeight.Bold
+)
+
+val h2 = TextStyle(
+    fontSize = 14.sp,
+    letterSpacing = 0.15.sp,
+    fontFamily = smileySansFamily,
+    fontWeight = FontWeight.Bold
+)
 
 // Set of Material typography styles to start with
 val Typography = Typography(
