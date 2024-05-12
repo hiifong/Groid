@@ -67,6 +67,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    // androidx
+    implementation(libs.androidx.constraintlayout.compose)
+
     // 第三方依赖
     implementation(libs.coil.compose)
 }
